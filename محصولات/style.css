@@ -1,0 +1,879 @@
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.eot);
+    src: url(../webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Light.eot);
+    src: url(../webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Light.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Light.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.eot);
+    src: url(../webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(../webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.ttf) format('truetype');
+}
+
+@media screen and (min-width:0px) and (max-width:320px) {  
+
+* {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+}
+
+.sarsafhe {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+}
+
+.froshgah {
+    margin-top: 18px;
+    margin-right: 3%;
+    display: inline-block;
+    color: white;
+    font-family: shabnam;
+    font-size: 14px;
+    float: right;
+}
+
+.search-box {
+    float: right;
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(51 51 51);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-top: 10px;
+    margin-right: 2%;
+    }
+    
+.search-button {
+    width: 25px;   
+    height: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(123, 233, 233, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    }
+    
+.search-input {
+    font-family: shabnam;
+    font-weight: 700;
+    font-size: 11px;
+    color: black;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    }
+
+.bargasht {
+    margin-right: 7px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'shabnam';
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.back {
+    background-color: gray;
+    width: 98%;
+    margin: 3px;
+    height: 465px;
+    border-radius: 2px;
+}
+
+.aks {
+    width: 90px;
+    border-radius: 3px;
+}
+
+.name {
+    font-family: 'shabnam';
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.mah {
+    float: right;
+    color: white;
+    font-family: shabnam;
+    font-size: 13px;
+    text-shadow: 0px 0px 2px black;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+hr {
+    color: rgb(129, 129, 129); 
+    width: 100%; 
+    border-bottom: solid 1px;
+} 
+
+.divar {
+    float: right;
+    margin: 10px 5px 0px 6px;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {  
+
+    * {
+        padding: 0;
+        border: none;
+        outline: none;
+    }
+    
+    body {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(211, 211, 211);
+    }
+    
+    .sarsafhe {
+        height: 55px;
+        width: 100%;
+        background-color: rgb(87, 87, 87);
+    }
+    
+    .froshgah {
+        margin-top: 18px;
+        margin-right: 3%;
+        display: inline-block;
+        color: white;
+        font-family: shabnam;
+        font-size: 14px;
+        float: right;
+    }
+    
+    .search-box {
+        float: right;
+        width: 25%;
+        height: 30%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(51 51 51);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-top: 10px;
+        margin-right: 2%;
+        }
+        
+    .search-button {
+        width: 25px;   
+        height: 25px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgba(123, 233, 233, 0);
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        }
+        
+    .search-input {
+        font-family: shabnam;
+        font-weight: 700;
+        font-size: 11px;
+        color: black;
+        width: 80%;
+        background-color: transparent;
+        border: none;
+        }
+    
+    .bargasht {
+        margin-right: 7px;
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-family: 'shabnam';
+        font-size: 13px;
+        margin-top: 18px;
+        margin-left: 5px;
+    }
+    
+    .back {
+        background-color: gray;
+        width: 98%;
+        margin: 3px;
+        height: 465px;
+        border-radius: 2px;
+    }
+    
+    .aks {
+        width: 90px;
+        border-radius: 3px;
+    }
+    
+    .name {
+        font-family: 'shabnam';
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .mah {
+        float: right;
+        color: white;
+        font-family: shabnam;
+        font-size: 13px;
+        text-shadow: 0px 0px 2px black;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    hr {
+        color: rgb(129, 129, 129); 
+        width: 100%; 
+        border-bottom: solid 1px;
+    } 
+    
+    .divar {
+        float: right;
+        margin: 10px 2% 0px 2%;
+    }
+    
+    }
+    
+    @media screen and (min-width:375px) and (max-width:425px) {  
+
+        * {
+            padding: 0;
+            border: none;
+            outline: none;
+        }
+        
+        body {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(211, 211, 211);
+        }
+        
+        .sarsafhe {
+            height: 55px;
+            width: 100%;
+            background-color: rgb(87, 87, 87);
+        }
+        
+        .froshgah {
+            margin-top: 18px;
+            margin-right: 3%;
+            display: inline-block;
+            color: white;
+            font-family: shabnam;
+            font-size: 14px;
+            float: right;
+        }
+        
+        .search-box {
+            float: right;
+            width: 25%;
+            height: 30%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(51 51 51);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            direction: rtl;
+            margin-top: 10px;
+            margin-right: 2%;
+            }
+            
+        .search-button {
+            width: 25px;   
+            height: 25px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: rgba(123, 233, 233, 0);
+            justify-content: center;
+            align-items: center;
+            padding: 4px;
+            }
+            
+        .search-input {
+            font-family: shabnam;
+            font-weight: 700;
+            font-size: 11px;
+            color: black;
+            width: 80%;
+            background-color: transparent;
+            border: none;
+            }
+        
+        .bargasht {
+            margin-right: 7px;
+            float: right;
+            text-decoration: none;
+            color: white;
+            font-family: 'shabnam';
+            font-size: 13px;
+            margin-top: 18px;
+            margin-left: 5px;
+        }
+        
+        .back {
+            background-color: gray;
+            width: 98%;
+            margin: 3px;
+            height: 465px;
+            border-radius: 2px;
+        }
+        
+        .aks {
+            width: 90px;
+            border-radius: 3px;
+        }
+        
+        .name {
+            font-family: 'shabnam';
+            color: white;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        .mah {
+            float: right;
+            color: white;
+            font-family: shabnam;
+            font-size: 13px;
+            text-shadow: 0px 0px 2px black;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        
+        hr {
+            color: rgb(129, 129, 129); 
+            width: 100%; 
+            border-bottom: solid 1px;
+        } 
+        
+        .divar {
+            float: right;
+            margin: 10px 5% 0px 3%;
+        }
+        
+        }
+        
+        @media screen and (min-width:425px) and (max-width:768px) {  
+
+            * {
+                padding: 0;
+                border: none;
+                outline: none;
+            }
+            
+            body {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                background-color: rgb(211, 211, 211);
+            }
+            
+            .sarsafhe {
+                height: 55px;
+                width: 100%;
+                background-color: rgb(87, 87, 87);
+            }
+            
+            .froshgah {
+                margin-top: 17px;
+                margin-right: 3%;
+                display: inline-block;
+                color: white;
+                font-family: shabnam;
+                font-size: 15px;
+                float: right;
+            }
+            
+            .search-box {
+                float: right;
+                width: 30%;
+                height: 30%;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: rgb(51 51 51);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                direction: rtl;
+                margin-top: 10px;
+                margin-right: 2%;
+                }
+                
+            .search-button {
+                width: 25px;   
+                height: 25px;
+                color: rgb(255, 255, 255);
+                border-radius: 5px;
+                background-color: rgba(123, 233, 233, 0);
+                justify-content: center;
+                align-items: center;
+                padding: 4px;
+                }
+                
+            .search-input {
+                font-family: shabnam;
+                font-weight: 700;
+                font-size: 12px;
+                color: black;
+                width: 80%;
+                background-color: transparent;
+                border: none;
+                }
+            
+            .bargasht {
+                margin-right: 13px;
+                float: right;
+                text-decoration: none;
+                color: white;
+                font-family: 'shabnam';
+                font-size: 14px;
+                margin-top: 16px;
+                margin-left: 5px;
+            }
+            
+            .back {
+                background-color: gray;
+                width: 99%;
+                margin: 3px;
+                height: 485px;
+                border-radius: 2px;
+            }
+            
+            .aks {
+                width: 100px;
+                border-radius: 3px;
+            }
+            
+            .name {
+                font-family: 'shabnam';
+                color: white;
+                font-size: 14px;
+                text-align: center;
+            }
+            
+            .mah {
+                float: right;
+                color: white;
+                font-family: shabnam;
+                font-size: 14px;
+                text-shadow: 0px 0px 2px black;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+            
+            hr {
+                color: rgb(129, 129, 129); 
+                width: 100%; 
+                border-bottom: solid 1px;
+            } 
+            
+            .divar {
+                float: right;
+                margin: 10px 3% 0px 3%;
+            }
+            
+            }
+
+            @media screen and (min-width:769px) and (max-width:1024px) {  
+
+                * {
+                    padding: 0;
+                    border: none;
+                    outline: none;
+                }
+                
+                body {
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    background-color: rgb(211, 211, 211);
+                }
+                
+                .sarsafhe {
+                    height: 70px;
+                    width: 100%;
+                    background-color: rgb(87, 87, 87);
+                }
+                
+                .froshgah {
+                    margin-top: 20px;
+                    margin-right: 3%;
+                    display: inline-block;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 20px;
+                    float: right;
+                }
+                
+                .search-box {
+                    float: right;
+                    width: 30%;
+                    height: 40%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    background-color: rgb(51 51 51);
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    direction: rtl;
+                    margin-top: 10px;
+                    margin-right: 2%;
+                    }
+                    
+                .search-button {
+                    width: 25px;   
+                    height: 25px;
+                    color: rgb(255, 255, 255);
+                    border-radius: 5px;
+                    background-color: rgba(123, 233, 233, 0);
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px;
+                    }
+                    
+                .search-input {
+                    font-family: shabnam;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: black;
+                    width: 80%;
+                    background-color: transparent;
+                    border: none;
+                    }
+                
+                .bargasht {
+                    margin-right: 13px;
+                    float: right;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'shabnam';
+                    font-size: 17px;
+                    margin-top: 21px;
+                    margin-left: 5px;
+                }
+                
+                .back {
+                    background-color: gray;
+                    width: 99%;
+                    margin: 3px;
+                    height: 465px;
+                    border-radius: 2px;
+                }
+                
+                .aks {
+                    width: 100px;
+                    border-radius: 3px;
+                }
+                
+                .name {
+                    font-family: 'shabnam';
+                    color: white;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                
+                .mah {
+                    float: right;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 18px;
+                    text-shadow: 0px 0px 2px black;
+                    margin-right: 10px;
+                    margin-top: 15px;
+                }
+                
+                hr {
+                    color: rgb(129, 129, 129); 
+                    width: 100%; 
+                    border-bottom: solid 1px;
+                } 
+                
+                .divar {
+                    float: right;
+                    margin: 10px 3% 0px 3%;
+                }
+                
+            }
+
+            @media screen and (min-width:1025px) and (max-width:1440px) {  
+
+                * {
+                    padding: 0;
+                    border: none;
+                    outline: none;
+                }
+                
+                body {
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    background-color: rgb(211, 211, 211);
+                }
+                
+                .sarsafhe {
+                    height: 85px;
+                    width: 100%;
+                    background-color: rgb(87, 87, 87);
+                }
+                
+                .froshgah {
+                    margin-top: 22px;
+                    margin-right: 3%;
+                    display: inline-block;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 23px;
+                    float: right;
+                }
+                
+                .search-box {
+                    float: right;
+                    width: 30%;
+                    height: 40%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    background-color: rgb(51 51 51);
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    direction: rtl;
+                    margin-top: 13px;
+                    margin-right: 2%;
+                    }
+                    
+                .search-button {
+                    width: 25px;   
+                    height: 25px;
+                    color: rgb(255, 255, 255);
+                    border-radius: 5px;
+                    background-color: rgba(123, 233, 233, 0);
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px;
+                    }
+                    
+                .search-input {
+                    font-family: shabnam;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: black;
+                    width: 80%;
+                    background-color: transparent;
+                    border: none;
+                    }
+                
+                .bargasht {
+                    margin-right: 16px;
+                    float: right;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'shabnam';
+                    font-size: 19px;
+                    margin-top: 24px;
+                    margin-left: 5px;
+                }
+                
+                .back {
+                    background-color: gray;
+                    width: 99%;
+                    margin: 5px;
+                    height: 465px;
+                    border-radius: 2px;
+                }
+                
+                .aks {
+                    width: 120px;
+                    border-radius: 3px;
+                }
+                
+                .name {
+                    font-family: 'shabnam';
+                    color: white;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                
+                .mah {
+                    float: right;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 18px;
+                    text-shadow: 0px 0px 2px black;
+                    margin-right: 10px;
+                    margin-top: 15px;
+                }
+                
+                hr {
+                    color: rgb(129, 129, 129); 
+                    width: 100%; 
+                    border-bottom: solid 1px;
+                } 
+                
+                .divar {
+                    float: right;
+                    margin: 10px 3% 0px 3%;
+                }
+                
+                }
+
+                @media screen and (min-width:1441px) and (max-width:2560px) {  
+
+                    * {
+                        padding: 0;
+                        border: none;
+                        outline: none;
+                    }
+                    
+                    body {
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        background-color: rgb(211, 211, 211);
+                    }
+                    
+                    .sarsafhe {
+                        height: 70px;
+                        width: 100%;
+                        background-color: rgb(87, 87, 87);
+                    }
+                    
+                    .froshgah {
+                        margin-top: 20px;
+                        margin-right: 3%;
+                        display: inline-block;
+                        color: white;
+                        font-family: shabnam;
+                        font-size: 20px;
+                        float: right;
+                    }
+                    
+                    .search-box {
+                        float: right;
+                        width: 30%;
+                        height: 40%;
+                        padding: 10px;
+                        border-radius: 5px;
+                        background-color: rgb(51 51 51);
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        direction: rtl;
+                        margin-top: 10px;
+                        margin-right: 2%;
+                        }
+                        
+                    .search-button {
+                        width: 25px;   
+                        height: 25px;
+                        color: rgb(255, 255, 255);
+                        border-radius: 5px;
+                        background-color: rgba(123, 233, 233, 0);
+                        justify-content: center;
+                        align-items: center;
+                        padding: 4px;
+                        }
+                        
+                    .search-input {
+                        font-family: shabnam;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: black;
+                        width: 80%;
+                        background-color: transparent;
+                        border: none;
+                        }
+                    
+                    .bargasht {
+                        margin-right: 13px;
+                        float: right;
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'shabnam';
+                        font-size: 17px;
+                        margin-top: 21px;
+                        margin-left: 5px;
+                    }
+                    
+                    .back {
+                        background-color: gray;
+                        width: 99%;
+                        margin: 3px;
+                        height: 465px;
+                        border-radius: 2px;
+                    }
+                    
+                    .aks {
+                        width: 100px;
+                        border-radius: 3px;
+                    }
+                    
+                    .name {
+                        font-family: 'shabnam';
+                        color: white;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    
+                    .mah {
+                        float: right;
+                        color: white;
+                        font-family: shabnam;
+                        font-size: 18px;
+                        text-shadow: 0px 0px 2px black;
+                        margin-right: 10px;
+                        margin-top: 15px;
+                    }
+                    
+                    hr {
+                        color: rgb(129, 129, 129); 
+                        width: 100%; 
+                        border-bottom: solid 1px;
+                    } 
+                    
+                    .divar {
+                        float: right;
+                        margin: 10px 3% 0px 3%;
+                    }
+                    
+                    }

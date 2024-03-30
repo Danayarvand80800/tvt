@@ -1,0 +1,1216 @@
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 700;
+    src: url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.eot);
+    src: url(./webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 500;
+    src: url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Light.eot);
+    src: url(./webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Light.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Light.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 300;
+    src: url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.eot);
+    src: url(./webkima_com_shabnam-font-v5.0.1/) format('embedded-opentype'), /* IE6-8 */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(./webkima_com_shabnam-font-v5.0.1/Shabnam-Medium.ttf) format('truetype');
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+}
+
+.sarsafhe {
+    height: 85px;
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+}
+
+.froshgah {
+    margin-right: 2%;
+    display: inline-block;
+    color: white;
+    font-family: shabnam;
+    font-size: 25px;
+    float: right;
+}
+
+.aks {
+    width: 22px;
+    margin: 28px 4px 0px 0px;
+    float: right;
+}
+
+.fehrest {
+    margin: 32px 1.5% 0px 0px;
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-family: shabnam;
+    font-size: 17px;
+}
+
+* {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.search-box {
+    float: right;
+    width: 19%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(51 51 51);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-top: 19px;
+    margin-right: 1%;
+}
+
+.search-button {
+    width: 30px;   
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(123, 233, 233, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: shabnam;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+
+.my-drawer-overlay {
+    position: fixed;
+    display: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10; 
+}
+
+
+.my-drawer {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: translateX(-100%);
+    z-index: 10;
+    transition: transform .6s cubic-bezier(.19,1,.22,1);
+    overflow: auto;
+}
+
+
+.my-drawer.open {
+    display: none;
+    transform: translateX(0);
+}
+
+.bat {
+    display: none;
+}
+
+.tab {
+    text-decoration: none;
+    width: 97%;
+    box-shadow: 0px 0px 2px;
+    margin-top: 10px;
+    }
+
+    .dana {
+        border-radius: 10px;
+        background-color: rgb(95, 95, 95);
+        height: 300px;
+        width: 183px;
+        box-shadow: 0px 0px 1px;
+    }
+    
+    .mtnn {
+        float: left;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        font-family: 'shabnam';
+        margin: 38px 0px 0px 10px;
+        background-color: gray;
+        padding: 3px 10px 3px 10px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px black;
+        }
+    
+        .mtn {
+            font-family: shabnam;
+            color: white;
+            float: right;
+            font-size: 16px;
+            margin: 4px;
+        }
+    
+        .akasi {
+            border-radius: 2px;
+        width: 82%;
+        margin: 10px 10px 0px 10px;
+        box-shadow: 0px 0px 1px;
+        }
+    
+        hr {
+            color: rgb(129, 129, 129); 
+            width: 100%; 
+            border-bottom: solid 1px;
+        }  
+
+        .name {
+            color: white;
+            font-family: 'shabnam';
+            text-shadow: 0px 0px 3px black;
+            font-size: 18px;
+            float: right;
+            margin: 10px 5px 5px 0px;
+        }
+
+        .liststyle {
+            float: right;
+            color: white;
+            text-decoration: none;
+            font-family: shabnam;
+            font-weight: 300;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-right: 7px;
+        }
+    
+        .logoy {
+            margin: 17px 4px 0px 0px;
+            float: right;
+            width: 17px;
+        }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    body {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(211, 211, 211);
+    }
+    
+    .sarsafhe {
+        height: 70px;
+        width: 100%;
+        background-color: rgb(87, 87, 87);
+    }
+    
+    .froshgah {
+        margin-top: 22px;
+        margin-right: 2%;
+        display: inline-block;
+        color: white;
+        font-family: shabnam;
+        font-size: 20px;
+        float: right;
+    }
+    
+    .aks {
+        width: 15px;
+        margin: 25px 4px 0px 0px;
+        float: right;
+    }
+    
+    .fehrest {
+        margin: 25px 9px 0px 0px;
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-family: shabnam;
+    font-size: 15px
+    }
+    
+    * {
+        padding: 0;
+        border: none;
+        outline: none;
+    }
+    
+    .search-box {
+        float: right;
+    width: 15%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(51 51 51);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-top: 14px;
+    margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 25px;   
+        height: 25px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgba(123, 233, 233, 0);
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: shabnam;
+        font-weight: 700;
+        font-size: 14px;
+        color: black;
+        width: 80%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .my-drawer-overlay {
+        position: fixed;
+        display: none;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.3);
+        z-index: 10; 
+    }
+    
+    
+    .my-drawer {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transform: translateX(-100%);
+        z-index: 10;
+        transition: transform .6s cubic-bezier(.19,1,.22,1);
+        overflow: auto;
+    }
+    
+    
+    .my-drawer.open {
+        display: none;
+        transform: translateX(0);
+        background-color: rgb(36, 35, 35);
+    }
+    
+    .bat {
+        display: none;
+    }
+
+    .tab {
+        text-decoration: none;
+        width: 97%;
+        box-shadow: 0px 0px 2px;
+        margin-top: 10px;
+        }
+
+        .dana {
+            border-radius: 10px;
+            background-color: rgb(95, 95, 95);
+            height: 305px;
+            width: 185px;
+            box-shadow: 0px 0px 1px;
+        }
+        
+        .mtnn {
+            float: left;
+            display: inline-block;
+            font-size: 16px;
+            color: white;
+            font-family: 'shabnam';
+            margin: 38px 0px 0px 8px;
+            background-color: gray;
+            padding: 3px 10px 3px 10px;
+            border-radius: 2px;
+            box-shadow: 0px 0px 2px black;
+            }
+        
+            .mtn {
+                font-family: shabnam;
+                color: white;
+                float: right;
+                font-size: 15px;
+                margin: 4px;
+            }
+        
+            .akasi {
+                border-radius: 2px;
+            width: 85%;
+            margin: 10px 3px 0px 3px;
+            box-shadow: 0px 0px 1px;
+            }
+        
+            hr {
+                color: rgb(129, 129, 129); 
+                width: 100%; 
+                border-bottom: solid 1px;
+            }  
+
+            .name {
+                color: white;
+                font-family: 'shabnam';
+                text-shadow: 0px 0px 3px black;
+                font-size: 16px;
+                float: right;
+                margin: 10px 5px 5px 0px;
+            }
+
+            .liststyle {
+                float: right;
+                color: white;
+                text-decoration: none;
+                font-family: shabnam;
+                font-weight: 300;
+                font-size: 14px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                margin-right: 7px;
+            }
+        
+            .logoy {
+                margin: 17px 4px 0px 0px;
+                float: right;
+                width: 17px;
+            }
+
+    }
+
+    @media screen and (min-width:425px) and (max-width:768px) {
+
+        body {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(211, 211, 211);
+        }
+        
+        .sarsafhe {
+            height: 65px;
+            width: 100%;
+            background-color: rgb(87, 87, 87);
+        }
+        
+        .froshgah {
+            margin-top: 20px;
+            margin-right: 2%;
+            display: inline-block;
+            color: white;
+            font-family: shabnam;
+            font-size: 18px;
+            float: right;
+        }
+        
+        .aks {
+            display: none;
+            width: 13px;
+            margin: 23px 4px 0px 0px;
+            float: right;
+        }
+        
+        .fehrest {
+            display: none;
+        margin: 23px 9px 0px 0px;
+        text-decoration: none;
+        float: right;
+        color: white;
+        font-family: shabnam;
+        font-size: 12px
+        }
+        
+        * {
+            padding: 0;
+            border: none;
+            outline: none;
+        }
+        
+        .search-box {
+        float: right;
+        width: 35%;
+        height: 30%;
+        padding: 12px;
+        border-radius: 5px;
+        background-color: rgb(51 51 51);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-top: 11px;
+        margin-right: 1%;
+        }
+        
+        .search-button {
+            width: 25px;   
+            height: 25px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: rgba(123, 233, 233, 0);
+            justify-content: center;
+            align-items: center;
+            padding: 4px;
+        }
+        
+        .search-input {
+            font-family: shabnam;
+            font-weight: 700;
+            font-size: 14px;
+            color: black;
+            width: 80%;
+            background-color: transparent;
+            border: none;
+        }
+
+        .my-drawer-overlay {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.3);
+            z-index: 10; 
+        }
+        
+        
+        .my-drawer {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            transform: translateX(-100%);
+            z-index: 10;
+            transition: transform .6s cubic-bezier(.19,1,.22,1);
+            overflow: auto;
+        }
+        
+        
+        .my-drawer.open {
+            transform: translateX(0);
+            width: 400px;
+            background-color: rgb(36, 35, 35);
+        }
+
+        .bat {
+            margin-top: 19px;
+            margin-right: 2%;
+            width: 25px;
+            float: right;
+        }
+
+        .tab {
+            text-decoration: none;
+            width: 97%;
+            box-shadow: 0px 0px 2px;
+            margin-top: 10px;
+            }
+
+            .dana {
+                border-radius: 10px;
+                background-color: rgb(95, 95, 95);
+                height: 243px;
+                width: 143px;
+                box-shadow: 0px 0px 1px;
+            }
+            
+            .mtnn {
+                float: left;
+                display: inline-block;
+                font-size: 13px;
+                color: white;
+                font-family: 'shabnam';
+                margin: 35px 0px 0px 6px;
+                background-color: gray;
+                padding: 3px 10px 3px 10px;
+                border-radius: 2px;
+                box-shadow: 0px 0px 2px black;
+                }
+            
+                .mtn {
+                    font-family: shabnam;
+                    color: white;
+                    float: right;
+                    font-size: 12px;
+                    margin: 4px;
+                }
+            
+                .akasi {
+                    border-radius: 2px;
+                width: 82%;
+                margin: 7px 4px 0px 3px;
+                box-shadow: 0px 0px 1px;
+                }
+            
+                hr {
+                    color: rgb(129, 129, 129); 
+                    width: 100%; 
+                    border-bottom: solid 1px;
+                }  
+
+                .name {
+                    color: white;
+                    font-family: 'shabnam';
+                    text-shadow: 0px 0px 3px black;
+                    font-size: 10px;
+                    float: right;
+                    margin: 10px 5px 5px 0px;
+                }
+
+                .liststyle {
+                    float: right;
+                    color: white;
+                    text-decoration: none;
+                    font-family: shabnam;
+                    font-weight: 300;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    margin-right: 7px;
+                }
+            
+                .logoy {
+                    margin: 17px 4px 0px 0px;
+                    float: right;
+                    width: 17px;
+                }
+        
+        }
+
+        @media screen and (min-width:375px) and (max-width:425px) {
+
+            body {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                background-color: rgb(211, 211, 211);
+            }
+            
+            .sarsafhe {
+                height: 60px;
+                width: 100%;
+                background-color: rgb(87, 87, 87);
+            }
+            
+            .froshgah {
+                margin-top: 19px;
+                margin-right: 2%;
+                display: inline-block;
+                color: white;
+                font-family: shabnam;
+                font-size: 16px;
+                float: right;
+            }
+            
+            .aks {
+                display: none;
+                width: 13px;
+                margin: 23px 4px 0px 0px;
+                float: right;
+            }
+            
+            .fehrest {
+                display: none;
+            margin: 23px 9px 0px 0px;
+            text-decoration: none;
+            float: right;
+            color: white;
+            font-family: shabnam;
+            font-size: 12px
+            }
+            
+            * {
+                padding: 0;
+                border: none;
+                outline: none;
+            }
+            
+            .search-box {
+            float: right;
+            width: 35%;
+            height: 30%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(51 51 51);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            direction: rtl;
+            margin-top: 12px;
+            margin-right: 2%;
+            }
+            
+            .search-button {
+                width: 25px;   
+                height: 25px;
+                color: rgb(255, 255, 255);
+                border-radius: 5px;
+                background-color: rgba(123, 233, 233, 0);
+                justify-content: center;
+                align-items: center;
+                padding: 4px;
+            }
+            
+            .search-input {
+                font-family: shabnam;
+                font-weight: 700;
+                font-size: 13px;
+                color: black;
+                width: 80%;
+                background-color: transparent;
+                border: none;
+            }
+    
+            .my-drawer-overlay {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.3);
+                z-index: 10; 
+            }
+            
+            
+            .my-drawer {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                background-color: white;
+                transform: translateX(-100%);
+                z-index: 10;
+                transition: transform .6s cubic-bezier(.19,1,.22,1);
+                overflow: auto;
+            }
+            
+            
+            .my-drawer.open {
+                transform: translateX(0);
+                width: 350px;
+                background-color: rgb(36, 35, 35);
+            }
+    
+            .bat {
+                margin-top: 16px;
+                margin-right: 3%;
+                width: 25px;
+                float: right;
+            }
+
+            .tab {
+                text-decoration: none;
+                width: 97%;
+                box-shadow: 0px 0px 2px;
+                margin-top: 10px;
+                }
+
+                .dana {
+                    border-radius: 10px;
+                    background-color: rgb(95, 95, 95);
+                    height: 220px;
+                    width: 130px;
+                    box-shadow: 0px 0px 1px;
+                }
+                
+                .mtnn {
+                    float: left;
+                    display: inline-block;
+                    font-size: 11px;
+                    color: white;
+                    font-family: 'shabnam';
+                    margin: 25px 0px 0px 6px;
+                    background-color: gray;
+                    padding: 3px 10px 3px 10px;
+                    border-radius: 2px;
+                    box-shadow: 0px 0px 2px black;
+                    }
+                
+                    .mtn {
+                        font-family: shabnam;
+                        color: white;
+                        float: right;
+                        font-size: 11px;
+                        margin: 4px;
+                    }
+                
+                    .akasi {
+                        border-radius: 2px;
+                    width: 85%;
+                    margin: 7px 4px 0px 3px;
+                    box-shadow: 0px 0px 1px;
+                    }
+                
+                    hr {
+                        color: rgb(129, 129, 129); 
+                        width: 100%; 
+                        border-bottom: solid 1px;
+                    }  
+
+                    .name {
+                        color: white;
+                        font-family: 'shabnam';
+                        text-shadow: 0px 0px 3px black;
+                        font-size: 13px;
+                        float: right;
+                        margin: 10px 5px 5px 0px;
+                    }
+
+                    .liststyle {
+                        float: right;
+                        color: white;
+                        text-decoration: none;
+                        font-family: shabnam;
+                        font-weight: 300;
+                        font-size: 13px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        margin-right: 7px;
+                    }
+                
+                    .logoy {
+                        margin: 17px 4px 0px 0px;
+                        float: right;
+                        width: 17px;
+                    }
+            
+            }
+
+            @media screen and (min-width:320px) and (max-width:375px) {
+
+                body {
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    background-color: rgb(211, 211, 211);
+                }
+                
+                .sarsafhe {
+                    height: 60px;
+                    width: 100%;
+                    background-color: rgb(87, 87, 87);
+                }
+                
+                .froshgah {
+                    margin-top: 19px;
+                    margin-right: 2%;
+                    display: inline-block;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 16px;
+                    float: right;
+                }
+                
+                .aks {
+                    display: none;
+                    width: 13px;
+                    margin: 23px 4px 0px 0px;
+                    float: right;
+                }
+                
+                .fehrest {
+                    display: none;
+                margin: 23px 9px 0px 0px;
+                text-decoration: none;
+                float: right;
+                color: white;
+                font-family: shabnam;
+                font-size: 12px
+                }
+                
+                * {
+                    padding: 0;
+                    border: none;
+                    outline: none;
+                }
+                
+                .search-box {
+                float: right;
+                width: 35%;
+                height: 30%;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: rgb(51 51 51);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                direction: rtl;
+                margin-top: 12px;
+                margin-right: 2%;
+                }
+                
+                .search-button {
+                    width: 25px;   
+                    height: 25px;
+                    color: rgb(255, 255, 255);
+                    border-radius: 5px;
+                    background-color: rgba(123, 233, 233, 0);
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px;
+                }
+                
+                .search-input {
+                    font-family: shabnam;
+                    font-weight: 700;
+                    font-size: 13px;
+                    color: black;
+                    width: 80%;
+                    background-color: transparent;
+                    border: none;
+                }
+        
+                .my-drawer-overlay {
+                    position: fixed;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    background-color: rgba(0,0,0,0.3);
+                    z-index: 10; 
+                }
+                
+                
+                .my-drawer {
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    background-color: white;
+                    transform: translateX(-100%);
+                    z-index: 10;
+                    transition: transform .6s cubic-bezier(.19,1,.22,1);
+                    overflow: auto;
+                }
+                
+                
+                .my-drawer.open {
+                    transform: translateX(0);
+                    width: 290px;
+                }
+        
+                .bat {
+                    margin-top: 17px;
+                    margin-right: 3%;
+                    width: 25px;
+                    float: right;
+                }
+
+                .tab {
+                    text-decoration: none;
+                    width: 97%;
+                    box-shadow: 0px 0px 2px;
+                    margin-top: 10px;
+                    }
+
+                    .dana {
+                        border-radius: 10px;
+                        background-color: rgb(95, 95, 95);
+                        height: 205px;
+                        width: 120px;
+                        box-shadow: 0px 0px 1px;
+                    }
+                    
+                    .mtnn {
+                        float: left;
+                        display: inline-block;
+                        font-size: 11px;
+                        color: white;
+                        font-family: 'shabnam';
+                        margin: 25px 0px 0px 6px;
+                        background-color: gray;
+                        padding: 3px 10px 3px 10px;
+                        border-radius: 2px;
+                        box-shadow: 0px 0px 2px black;
+                        }
+                    
+                        .mtn {
+                            font-family: shabnam;
+                            color: white;
+                            float: right;
+                            font-size: 10px;
+                            margin: 4px;
+                        }
+                    
+                        .akasi {
+                            border-radius: 2px;
+                        width: 80%;
+                        margin: 7px 3px 0px 3px;
+                        box-shadow: 0px 0px 1px;
+                        }
+                    
+                        hr {
+                            color: rgb(129, 129, 129); 
+                            width: 100%; 
+                            border-bottom: solid 1px;
+                        }  
+
+                        .name {
+                            color: white;
+                            font-family: 'shabnam';
+                            text-shadow: 0px 0px 3px black;
+                            font-size: 12px;
+                            float: right;
+                            margin: 10px 5px 5px 0px;
+                        }
+
+                        .liststyle {
+                            float: right;
+                            color: white;
+                            text-decoration: none;
+                            font-family: shabnam;
+                            font-weight: 300;
+                            font-size: 14px;
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                            margin-right: 7px;
+                        }
+                    
+                        .logoy {
+                            margin: 17px 4px 0px 0px;
+                            float: right;
+                            width: 17px;
+                        }
+                
+                }
+
+                @media screen and (max-width:320px) {
+
+                    body {
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        background-color: rgb(211, 211, 211);
+                    }
+                    
+                    .sarsafhe {
+                        height: 55px;
+                        width: 100%;
+                        background-color: rgb(87, 87, 87);
+                    }
+                    
+                    .froshgah {
+                        margin-top: 18px;
+                        margin-right: 3%;
+                        display: inline-block;
+                        color: white;
+                        font-family: shabnam;
+                        font-size: 14px;
+                        float: right;
+                    }
+                    
+                    .aks {
+                        display: none;
+                        width: 13px;
+                        margin: 23px 4px 0px 0px;
+                        float: right;
+                    }
+                    
+                    .fehrest {
+                        display: none;
+                    margin: 23px 9px 0px 0px;
+                    text-decoration: none;
+                    float: right;
+                    color: white;
+                    font-family: shabnam;
+                    font-size: 12px
+                    }
+                    
+                    * {
+                        padding: 0;
+                        border: none;
+                        outline: none;
+                    }
+                    
+                    .search-box {
+                    float: right;
+                    width: 30%;
+                    height: 30%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    background-color: rgb(51 51 51);
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    direction: rtl;
+                    margin-top: 10px;
+                    margin-right: 2%;
+                    }
+                    
+                    .search-button {
+                        width: 25px;   
+                        height: 25px;
+                        color: rgb(255, 255, 255);
+                        border-radius: 5px;
+                        background-color: rgba(123, 233, 233, 0);
+                        justify-content: center;
+                        align-items: center;
+                        padding: 4px;
+                    }
+                    
+                    .search-input {
+                        font-family: shabnam;
+                        font-weight: 700;
+                        font-size: 11px;
+                        color: black;
+                        width: 80%;
+                        background-color: transparent;
+                        border: none;
+                    }
+            
+                    .my-drawer-overlay {
+                        position: fixed;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        z-index: 10; 
+                    }
+                    
+                    
+                    .my-drawer {
+                        position: fixed;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        background-color: white;
+                        transform: translateX(-100%);
+                        z-index: 10;
+                        transition: transform .6s cubic-bezier(.19,1,.22,1);
+                        overflow: auto;
+                    }
+                    
+                    
+                    .my-drawer.open {
+                        transform: translateX(0);
+                        width: 240px;
+                        background-color: rgb(36, 35, 35);
+                    }
+            
+.bat {
+    margin-top: 16px;
+    margin-right: 3%;
+    width: 20px;
+    float: right;
+    }
+
+.tab {
+    text-decoration: none;
+    width: 97%;
+    box-shadow: 0px 0px 2px;
+    margin-top: 10px;
+    }
+
+.name {
+    color: white;
+    font-family: 'shabnam';
+    text-shadow: 0px 0px 3px black;
+    font-size: 11px;
+    float: right;
+    margin: 10px 5px 5px 0px;
+}
+
+.dana {
+    border-radius: 10px;
+    background-color: rgb(95, 95, 95);
+    height: 190px;
+    width: 106px;
+    box-shadow: 0px 0px 1px;
+}
+
+.mtnn {
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    font-family: 'shabnam';
+    margin: 25px 0px 0px 6px;
+    background-color: gray;
+    padding: 3px 10px 3px 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px black;
+    }
+
+    .mtn {
+        font-family: shabnam;
+        color: white;
+        float: right;
+        font-size: 9px;
+        margin: 4px;
+    }
+
+    .akasi {
+        border-radius: 2px;
+    width: 80%;
+    margin: 7px 0px 0px 0px;
+    box-shadow: 0px 0px 1px;
+    }
+
+    hr {
+        color: rgb(129, 129, 129); 
+        width: 100%; 
+        border-bottom: solid 1px;
+    }  
+    
+    .liststyle {
+        float: right;
+        color: white;
+        text-decoration: none;
+        font-family: shabnam;
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 7px;
+    }
+
+    .logoy {
+        margin: 17px 4px 0px 0px;
+        float: right;
+        width: 17px;
+    }
+}
